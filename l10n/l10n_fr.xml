@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="stw_title" text="AGRICULTEUR FATIGUÉ"/>
+        <text name="stw_warn" text="Vous avez travaillé %d heures. Plus que %d heures avant de devoir dormir."/>
+        <text name="stw_exhausted" text="Vous êtes épuisé après 14 heures de travail. Appuyez sur R pour dormir."/>
+        <text name="stw_mustSleep" text="Vous êtes trop fatigué pour conduire. Dormez d'abord !"/>
+        <text name="stw_rested" text="Vous avez dormi %.0f heures et vous êtes complètement reposé. Au travail !"/>
+        <text name="stw_nap" text="Courte sieste de %.1f heures. Vous pouvez encore travailler %s."/>
+        <text name="stw_hud" text="Travail aujourd'hui : %s / %d h"/>
+        <text name="input_STW_SLEEP" text="Dormir"/>
+        <text name="stw_sleeping" text="Sommeil... Zzz"/>
+        <text name="stw_pressR" text="Vous êtes épuisé. Appuyez sur R pour dormir."/>
+    </texts>
+</l10n>

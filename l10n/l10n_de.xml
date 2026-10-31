@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="stw_title" text="MÜDER LANDWIRT"/>
+        <text name="stw_warn" text="Du hast %d Stunden gearbeitet. Nur noch %d Stunden, dann musst du schlafen."/>
+        <text name="stw_exhausted" text="Du bist nach 14 Stunden Arbeit erschöpft. Drücke R zum Schlafen."/>
+        <text name="stw_mustSleep" text="Du bist zu müde zum Fahren. Erst schlafen!"/>
+        <text name="stw_rested" text="Du hast %.0f Stunden geschlafen und bist voll ausgeruht. Zurück an die Arbeit!"/>
+        <text name="stw_nap" text="Kurzes Nickerchen von %.1f Stunden. Du kannst noch %s arbeiten."/>
+        <text name="stw_hud" text="Arbeit heute: %s / %d h"/>
+        <text name="input_STW_SLEEP" text="Schlafen"/>
+        <text name="stw_sleeping" text="Schläft... Zzz"/>
+        <text name="stw_pressR" text="Du bist erschöpft. Drücke R zum Schlafen."/>
+    </texts>
+</l10n>

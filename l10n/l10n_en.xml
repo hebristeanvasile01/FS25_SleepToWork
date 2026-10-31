@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="stw_title" text="TIRED FARMER"/>
+        <text name="stw_warn" text="You have worked %d hours. Only %d hours left before you must sleep."/>
+        <text name="stw_exhausted" text="You are exhausted after 14 hours of work. Press R to sleep."/>
+        <text name="stw_mustSleep" text="You are too tired to drive. Sleep first!"/>
+        <text name="stw_rested" text="You slept %.0f hours and you are fully rested. Back to work!"/>
+        <text name="stw_nap" text="Short nap of %.1f hours. You can work %s more."/>
+        <text name="stw_hud" text="Work today: %s / %d h"/>
+        <text name="input_STW_SLEEP" text="Sleep"/>
+        <text name="stw_sleeping" text="Sleeping... Zzz"/>
+        <text name="stw_pressR" text="You are exhausted. Press R to sleep."/>
+    </texts>
+</l10n>

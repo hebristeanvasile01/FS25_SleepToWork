@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="115">
+    <author>FS Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Sleep To Work</en>
+        <de>Schlafen Zum Arbeiten</de>
+        <fr>Dormir Pour Travailler</fr>
+    </title>
+    <description>
+        <en><![CDATA[Even a farmer needs sleep! After 14 hours of work you are too tired to drive and you have to go to bed before you can work again.
+
+HOW IT WORKS
+- Every in-game hour you spend driving a vehicle with the motor running counts as work.
+- At 14 hours you are exhausted: one message tells you, the motor stops and will not start again.
+- Press R to sleep: the screen goes dark, time runs fast for 8 hours and you wake up fully rested.
+- Sleeping in your bed for at least 6 hours works too.
+- A short nap helps too: every hour of sleep gives back two hours of work.
+
+Your hired helpers are not affected, they keep working while you rest.
+
+The work time is shown on screen while you drive, and it is saved with your savegame.
+
+CONSOLE
+- stwStatus: show your work time
+- stwSet 13.5: set the work time (for testing)
+- stwLimit 14: change the limit
+
+Singleplayer only.
+Languages: English, German, French.]]></en>
+        <de><![CDATA[Auch ein Landwirt braucht Schlaf! Nach 14 Stunden Arbeit bist du zu müde zum Fahren und musst ins Bett, bevor du weiterarbeiten kannst.
+
+SO FUNKTIONIERT ES
+- Jede Spielstunde, die du ein Fahrzeug mit laufendem Motor fährst, zählt als Arbeit.
+- Bei 14 Stunden bist du erschöpft: eine Meldung sagt es dir, der Motor geht aus und springt nicht mehr an.
+- Drücke R zum Schlafen: der Bildschirm wird dunkel, die Zeit läuft 8 Stunden schnell und du wachst ausgeruht auf.
+- Mindestens 6 Stunden Schlaf in deinem Bett gehen auch.
+- Ein kurzes Nickerchen hilft auch: jede Stunde Schlaf gibt zwei Stunden Arbeit zurück.
+
+Deine Helfer sind nicht betroffen, sie arbeiten weiter, während du dich ausruhst.
+
+Die Arbeitszeit wird beim Fahren angezeigt und mit deinem Spielstand gespeichert.
+
+KONSOLE
+- stwStatus: Arbeitszeit anzeigen
+- stwSet 13.5: Arbeitszeit setzen (zum Testen)
+- stwLimit 14: Grenze ändern
+
+Nur Einzelspieler.
+Sprachen: Englisch, Deutsch, Französisch.]]></de>
+        <fr><![CDATA[Même un agriculteur a besoin de sommeil ! Après 14 heures de travail, vous êtes trop fatigué pour conduire et devez aller au lit avant de pouvoir reprendre le travail.
+
+FONCTIONNEMENT
+- Chaque heure de jeu passée à conduire un véhicule moteur allumé compte comme du travail.
+- À 14 heures, vous êtes épuisé : un message vous prévient, le moteur s'arrête et ne redémarre plus.
+- Appuyez sur R pour dormir : l'écran s'assombrit, le temps passe vite pendant 8 heures et vous vous réveillez reposé.
+- Dormir au moins 6 heures dans votre lit fonctionne aussi.
+- Une courte sieste aide aussi : chaque heure de sommeil rend deux heures de travail.
+
+Vos ouvriers ne sont pas concernés, ils continuent de travailler pendant que vous vous reposez.
+
+Le temps de travail s'affiche pendant la conduite et il est enregistré avec votre partie.
+
+CONSOLE
+- stwStatus : afficher le temps de travail
+- stwSet 13.5 : régler le temps de travail (pour tester)
+- stwLimit 14 : changer la limite
+
+Solo uniquement.
+Langues : anglais, allemand, français.]]></fr>
+    </description>
+    <iconFilename>icon_SleepToWork.dds</iconFilename>
+    <multiplayer supported="false"/>
+    <l10n filenamePrefix="l10n/l10n"/>
+    <actions>
+        <action name="STW_SLEEP" category="ONFOOT VEHICLE"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="STW_SLEEP"><binding device="KB_MOUSE_DEFAULT" input="KEY_r" axisComponent="+"/></actionBinding>
+    </inputBinding>
+
+    <extraSourceFiles>
+        <sourceFile filename="sleeptowork.lua"/>
+    </extraSourceFiles>
+</modDesc>
